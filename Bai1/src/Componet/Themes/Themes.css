@@ -1,0 +1,33 @@
+
+button{
+    margin-top: 100px;
+    left: 200px;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: darkgreen;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+.circle{
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+}
+.ON .circle{
+    transform: translateX(58px);
+    background-color: #fff;
+    
+}
+.OFF .circle{
+    transform: translateX(2px);
+    background-color: #333;
+    
+}
+

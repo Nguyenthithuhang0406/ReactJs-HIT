@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.table{
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 25%;
+}
+/* .head{
+    background: darkgrey;
+} */
+th{
+    color: white;
+    text-align: center;
+    height: 30px;
+}
+td{
+    text-align: center;
+    height: 30px;
+}
