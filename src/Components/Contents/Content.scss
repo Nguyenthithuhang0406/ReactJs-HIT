@@ -1,0 +1,129 @@
+.contain{
+    background-image: url('../../assets/image/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 880px;
+
+    .content{
+        width: 50%;
+        float: left;
+        height: 700px;
+        position: absolute;
+
+        .ct1{
+            font-size: 50px;
+            position: relative;
+            margin-top: 200px;
+            margin-left: 20%;
+            color: white;
+        }
+        .ct2{
+            font-size: 30px;
+            position: relative;
+            margin-left: 20%;
+            color: white;
+        }
+        .bt{
+            position: relative;
+            margin-left: 20%;
+            color: white;
+        }
+    }
+
+    .image{
+        width: 50%;
+        float: right;
+        position: relative;
+        margin-left: 0%;
+
+        .im1{
+            width: 250px;
+            height: 500px;
+            position: relative;
+            top: 100px;
+            right: -20%;
+            overflow: hidden;
+        }
+        .im2{
+            width: 250px;
+            height: 500px;
+            position: relative;
+            top: 150px;
+            right: -1%;
+        }
+    }
+    
+}
+
+
+.contain2{
+    width: 100%;
+    min-height: 880px;
+    position: absolute;
+
+    .ct3{
+        font-size: 50px;
+        color: navy;
+        position: relative;
+        margin-top: 100px;
+        margin-left: 20%;
+    }
+
+    .row {
+        height: 100vh;
+        min-height: 880px;
+
+        .feature-1{
+            .wrap-icon.icon-1 {
+                background: linear-gradient(-45deg, #3b87bd, #2d71a2);
+            }
+
+            .wrap-icon {
+                margin: 0 auto;
+                height: 100px;
+                width: 100px;
+                border-radius: 50%;
+                position: relative;
+                margin-bottom: 30px;
+                box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.2);
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            i {
+                font-size: 40px;
+                line-height: 0;
+                color: #fff;
+            }
+
+            h3 {
+                font-size: 20px;
+            }
+
+            p {
+                color: #b1b1b1;
+            }
+        }
+    }
+}
+
+@media screen  and (max-width: 768px){
+    .contain{
+        height: 1500px;
+
+        .content{
+            width: 100%;
+        }
+        .image{
+            width: 100%;
+            margin-top: 500px;
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .contain{
+        height: 2000px;
+    }
+}

@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import "./Footer.css";
+import "./Footer.scss";
 
 const Footer = () => {
   return (

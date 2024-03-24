@@ -6,7 +6,7 @@ import tablet from '../../../assets/image/tablet.png';
 import smartphone from '../../../assets/image/smartphone.png';
 import download from '../../../assets/image/download.png';
 import tab from '../../../assets/image/tab.png'
-import './index.css';
+import './index.scss';
 import { Link } from 'react-router-dom';
 
 
