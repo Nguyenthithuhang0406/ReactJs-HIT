@@ -1,0 +1,41 @@
+@import "../../.././scss/variable";
+:root{
+    --a: black;
+}
+$bg: gray;
+
+.card2{
+    $primary-color: #fff;
+
+    // background-color: $primary-color;
+    background-color: $primary-text;
+    border: 1px solid  cornflowerblue;
+    padding: 16px;
+    width: 400px;
+    height: 600px;
+    margin: 40px auto;
+    transition: all 0.5s linear;
+    color: var(--a);
+
+    &>img{
+        width: 100%;
+    }
+
+    &>h1{
+        display: flex;
+        justify-content: center;
+
+        >span{
+
+            >a{
+                color: aqua;
+            }
+        }
+    }
+
+    &:hover{
+        background-color: deepskyblue;
+        transform: scale(1.1);
+        color: $bg;
+    }
+}
