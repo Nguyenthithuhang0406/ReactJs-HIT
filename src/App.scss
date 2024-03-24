@@ -1,0 +1,24 @@
+.app{
+    height: 100%;
+}
+
+.light{
+        background-color: green !important;
+        color: black !important;
+}
+
+.dark{
+        background-color: black !important;
+}
+
+
+.wide{
+    width: 80%;
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
