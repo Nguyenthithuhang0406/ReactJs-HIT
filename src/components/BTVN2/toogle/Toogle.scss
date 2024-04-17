@@ -1,0 +1,40 @@
+
+button{
+    width: 70px;
+    height: 30px;
+    border-radius: 20px;
+    // background-color: darkgreen;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+
+    .circle{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+}
+}
+
+.ON{
+    background-color: #01270c;
+
+    & .circle{
+    transform: translateX(38px);
+}
+    
+}
+
+
+.OFF{
+    background-color: #686767;
+    
+    & .circle{
+        transform: translateX(1px);
+    }
+}

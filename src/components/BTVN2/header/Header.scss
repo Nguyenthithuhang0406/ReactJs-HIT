@@ -1,0 +1,52 @@
+.header{
+        padding: 30px;
+        display: flex;
+        justify-content: space-around;
+        // height: 100px;
+
+        .left-header{
+            display: flex;
+            margin-top: 5px;
+            color: darkgrey;
+            text-align: center;
+        }
+
+        .box-search{
+            width: 50%;
+            display: flex;
+            height: 40px;
+            padding: 5px;
+            border: 1px solid darkgrey;
+            border-radius: 12px;
+            .icon{
+                margin-top: 5px;
+                width: 20px;
+                height: 20px;
+            }
+            .input{
+                margin-left: 10px;
+                height: 30px;
+                width: 100%;
+                border: none;
+            }
+
+            @media screen and (max-width: 480px){
+                width: 30%;
+            }
+        }
+
+        .right-header{
+
+            .bell{
+                width: 30px;
+                height: 30px;
+            }
+
+            .account{
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                margin-left: 10px;
+            }
+        }
+    }

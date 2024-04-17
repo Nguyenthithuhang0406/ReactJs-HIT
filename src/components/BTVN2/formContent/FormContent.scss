@@ -1,0 +1,128 @@
+.content{
+    padding-top: 30px;
+    width: calc(100%);
+    margin-top: -100vh;
+    margin-left: 30%;
+
+    .title{
+        font-size: 30px;
+    }
+
+    .left-content{
+        width: 50%;
+
+        .form-item{
+            margin-top: 20px;
+
+            .label{
+                color: darkgrey;
+            }
+
+            .input{
+                width: 50%;
+                height: 40px;
+                border-radius: 12px;
+                border: 1px solid darkgrey;
+                padding-left: 20px;
+            }
+
+            .op{
+                width: 50%;
+                display: flex;
+                justify-content: space-between;
+
+                .op-birthday{
+                    width: 30%;
+                    height: 40px;
+                    border-radius: 12px;
+                    border: 1px solid darkgrey;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .right-content{
+        width: 25%;
+        margin-top: -500px;
+        margin-left: 40%;
+
+        .form-item{
+            margin-top: 20px;
+
+            .label{
+                color: darkgrey;
+            }
+
+            .input{
+                width: 100%;
+                height: 40px;
+                border-radius: 12px;
+                border: 1px solid darkgrey;
+                padding-left: 20px;
+            }
+        }
+
+        .confirm{
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            .p{
+                color: darkgrey;
+            }
+        }
+
+        .bt-submit{
+            margin-top: 20px;
+            width: 100px;
+            height: 40px;
+            border-radius: 12px;
+            background-color: darkolivegreen;
+            color: whitesmoke;
+            border: none;
+        }
+    }
+}
+@media screen and (max-width: 768px){
+    .content{
+        margin-left: 40%;
+
+        .left-content{
+        width: 100%;
+
+        .form-item{
+            .input{
+                width: 50%;
+            }
+        }}
+
+        .right-content{
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 0px;
+
+        .form-item{
+            .input{
+                width: 50%;
+            }
+        }
+
+        .confirm{
+            width: 100%;
+            margin-top: 20px;
+            display: flex;
+            justify-content: start;
+            .p{
+                margin-right: 20px;
+            }
+        }
+    }
+    }
+           
+}
+
+@media screen and (max-width: 480px){
+    .content{
+        margin-left: 50%;
+    }
+}       

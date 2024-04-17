@@ -1,0 +1,55 @@
+.sidebar{
+        padding: 30px;
+        width: 20%;
+        height: 100vh;
+        margin-left: 5%;
+        border-right: 1px solid darkgray;
+        .avata{
+            .ava{
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+
+                @media screen and (max-width: 768px){
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 50%;
+                }
+
+            }
+
+            .edit-icon{
+                margin-left: -40px;
+                width: 30px;
+                height: 30px;
+                padding: 5px;
+                border-radius: 50%;
+                background-color: darkgray;
+            }
+        }
+
+        .group-sidebar{
+            margin-top: 30px;
+            display: flex;
+            color: darkgrey;
+
+            .icon-sidebar{
+                width: 20px;
+                height: 20px;
+            }
+
+            .link-sidebar{
+                margin-left: 20px;
+            }
+        }
+
+        @media screen and (min-width: 480px) and (max-width: 768px){
+           width: 30%;
+           margin-left: 0;
+           
+        }
+
+        @media screen and (max-width: 480px){
+           width: 43%;
+         }
+}
