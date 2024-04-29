@@ -24,11 +24,15 @@ const Register = () => {
 
     const navigate = useNavigate();
 
+    const navigateBack = () => {
+        navigate(-1);
+    }
+
     return (
         <div className='body-form'>
             <div className='form-login'>
                 <div className='exit'>
-                    <Link to="/"><img className='close-icon' src={close} /></Link>
+                    <Link onClick={navigateBack}><img className='close-icon' src={close} /></Link>
                 </div>
 
                 <p className='tt-form'><b>Register</b></p>
@@ -43,7 +47,7 @@ const Register = () => {
 
                             toast.success("Register successfully!");
 
-                            navigate("/login")
+                            navigate("/login");
 
                         } catch (error) {
                             console.log(error);
