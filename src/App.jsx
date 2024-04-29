@@ -21,6 +21,7 @@ const App = () => {
         <Route path='/register' element={<Register/> } />
         <Route path='/aboutUs' element={<AboutUs />} />
         <Route path='/contact' element={<Contact />} />
+        <Route path='*' element={ <p>Error 404: Page not found!</p>} />
       </Routes>
     </BrowserRouter>
   )
