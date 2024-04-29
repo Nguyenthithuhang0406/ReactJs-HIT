@@ -1,0 +1,23 @@
+.content-full{
+    background-color: rgb(235, 238, 238);
+    padding: 100px;
+    min-height: 500px;
+
+    .name-content{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .list-item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        @media screen  and (max-width: 768px){
+            display: flex;
+            flex-direction: column;
+        }
+
+    }
+
+}

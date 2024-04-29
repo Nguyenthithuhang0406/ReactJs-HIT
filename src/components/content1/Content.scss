@@ -1,0 +1,16 @@
+.content1{
+    height: 600px;
+    background-image: url('https://start-bootstrap-ten.vercel.app/assets/bg-masthead-BwreFw1Q.jpg');
+    background-size: auto;
+    background-position: center;
+    display: flex;
+    align-items: center;
+
+    .nd-content1{
+        width: 50%;
+        color: white;
+        font-size: 50px;
+        text-align: center;
+        margin-left: 25%;
+    }
+}
