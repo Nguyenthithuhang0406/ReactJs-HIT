@@ -1,0 +1,40 @@
+.body03{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 150px;
+
+    .ct1-bd3{
+        width: 50%;
+        margin-left: 25%;
+        text-align: center;
+
+        .ct1-bd3-h1{
+            font-size: 40px;
+            color: #212353;
+        }
+
+        .ct1-bd3-h5{
+            margin-top: 50px;
+            font-size: 18px;
+            color: #4B5D68;
+        }
+    }
+
+    .ct2-bd3{
+
+        margin-top: 100px;
+        width: 90%;
+        margin-left: 5%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 500px 500px;
+
+        @media screen and (max-width: 768px) {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            gap: 100px
+        }
+    }
+}

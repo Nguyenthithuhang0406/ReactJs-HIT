@@ -1,0 +1,51 @@
+.item1-bd3{
+            display: flex;
+            align-items: center;
+            .image31{
+                width: 228.47px;
+                height: 207.79px;
+            }
+
+            .retangle{
+                margin-left: -120px;
+                width: 435.28px;
+                height: 352.56px;
+            }
+
+            .p-item-bd3{
+                width: 250px;
+                margin-left: -300px;
+                    .tt-item-bd3{
+                        font-size: 24px;
+                        color: #212353;
+                    }
+
+                    .ds-item-bd3{
+                        margin-top: 30px;
+                        font-size: 16px;
+                        color: #4B5D68;
+                    }
+
+                    .learnMore-bd3{
+                        margin-top: 30px;
+                        display: flex;
+                        
+                        .lm-bd3{
+                            margin-top: 15px;
+                            font-size: 16px;
+                            color: #212353;
+                        }
+
+                        .icon-bd3{
+                            width: 19.7px;
+                            height: 13.79px;
+                            margin-left: 30px;
+                            
+                            &img{
+                                width: 100%;
+                                height: 200%;
+                            }
+                        }
+                    }
+                }
+        }

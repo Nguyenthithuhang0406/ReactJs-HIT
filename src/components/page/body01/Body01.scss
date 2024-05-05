@@ -1,0 +1,116 @@
+.body01{
+    .top{
+        width: 90%;
+        height: 59.63px;
+        margin-left: 5%;
+        display: flex;
+        justify-content: space-between;
+
+        .logo{
+            width: 48.7px;
+            height: 34.78px;
+            border-radius: 20px;
+            display: flex;
+            justify-content: space-around;
+
+            .lg1{
+                width: 19.88px;
+                height: 19.88px;
+                margin-top: 54.83px;
+                border-radius: 20px;
+                background-color: #9C69E2;
+            }
+
+            .lg2{
+                width: 19.88px;
+                height: 34.78px;
+                margin-top: 39.93px;
+                border-radius: 20px;
+                background-color: #F063B8;
+            }
+        }
+
+        .button-top{
+
+            .top-signIn{
+                width: 350px;
+                display: flex;
+                justify-content: space-around;
+
+                .btn-top{
+                    width: 150px;
+                    height: 50px;
+                    border-radius: 50px;
+                    background-color: #9C69E2;
+                    box-shadow: 0px 5px 5px 0px #4B5D681A;
+                    color: #FFFFFF;
+                    font-size: 16px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: 20px;
+                    border: none;
+                }
+            }
+
+            .top-NotSignIn{
+                width: 150px;
+                height: 50px;
+                border-radius: 50px;
+                background-color: #9C69E2;
+                box-shadow: 0px 5px 5px 0px #4B5D681A;
+                color: #FFFFFF;
+                font-size: 16px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 20px;
+            }
+        }
+    }
+
+    .ct1{
+        margin-top: 70px;
+        width: 80%;
+        margin-left: 5%;
+        display: flex;
+        justify-content: center;
+
+        .headline{
+            width: 70%;
+
+            .headline-h1{
+                font-size: 70px;
+                color: #212353;
+            }
+
+            .headline-h5{
+                font-size: 18px;
+                color: #4B5D68;
+                margin-top: 50px;
+            }
+
+            .btn-headline{
+                margin-top: 50px;
+                width: 168.94px;
+                height: 59.63px;
+                border-radius: 50px;
+                background-color: #9C69E2;
+                font-size: 18px;
+                color: #FFFFFF;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: none;
+            }
+        }
+
+        .image1{
+            width: 50%;
+
+            &img{
+                width: 100%;
+            }
+        }
+    }
+}
