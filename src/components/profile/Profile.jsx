@@ -6,6 +6,7 @@ import editIcon from "../../../public/image/editIcon.png";
 
 import "./Profile.scss";
 import { useNavigate } from 'react-router-dom';
+import { Pagination } from 'antd';
 
 const Profile = () => {
   const [posts, setPost] = useState([]);
@@ -13,6 +14,16 @@ const Profile = () => {
   const [description, setDescription] = useState('');
   const [tags, setTags] = useState('');
   const [isUpdate, setIsupdate] = useState(null);
+  const [currentPage, setCurrentPage] = useState(1);
+  const postsPerPage = 10;
+
+  const indexOfLastPost = currentPage * postsPerPage;
+  const indexOfFirstPost = indexOfLastPost - postsPerPage;
+  const currentPosts = posts.slice(indexOfFirstPost, indexOfLastPost);
+
+  const totalPages = Math.ceil(posts.length / postsPerPage);
+
+  const handlePageChange = (pageNumber) => setCurrentPage(pageNumber);
 
   const handleAdd = () => {
     setPost([...posts, { title, description, tags }]);
@@ -92,9 +103,9 @@ const Profile = () => {
           <p className='p-tt-table'>Actions</p>
         </div>
         <div className='post-table-list'>
-          {posts && posts.map((post, index) => {
+          {currentPosts && currentPosts.map((post, index) => {
             return <div className='table-profile' key={index}>
-              <p className='p-table'>{index + 1}</p>
+              <p className='p-table'>{indexOfFirstPost + index + 1}</p>
               <p className='p-table'>{post.title}</p>
               <p className='p-table'>{post.description}</p>
               <p className='p-table'>{post.tags}</p>
@@ -106,7 +117,14 @@ const Profile = () => {
           })}
         </div>
 
-        <button className='Pagination'>Phần phân trang</button>
+        <Pagination
+          className='Pagination'
+          total={posts.length}
+          pageSize={10}
+          current={currentPage}
+          onChange={handlePageChange}
+        />
+        {/* <button className='Pagination'>Phần phân trang</button> */}
       </div>
 
     </div>
