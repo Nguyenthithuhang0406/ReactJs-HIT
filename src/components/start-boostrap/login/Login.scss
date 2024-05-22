@@ -1,0 +1,88 @@
+
+.body-form{
+    display: flex;
+    justify-content: center;
+.form-login{
+    width: 450px;
+    padding: 50px;
+    min-height: 450px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 150px;
+
+    .tt-form{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .login-form{
+        .input{
+            margin-top: 30px;
+            width: 100%;
+            height: 50px;
+            border: none;
+            padding: 0 20px;
+            background-color: rgb(253, 238, 238);
+        }
+
+        .btn-login{
+            margin-top: 30px;
+            height: 50px;
+            width: 100%;
+            border: none;
+            border-radius: 8px;
+            background-color: rgb(90, 90, 243);
+            color: whitesmoke;
+            font-size: 20px;
+
+            &:hover{
+                background-color: blue;
+            }
+        }
+
+        .head-form{
+            width: 100%;
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            text-align: start;
+            color: rgb(56, 56, 56);
+
+            .link-register{
+                text-decoration: none;
+                color: rgb(56, 56, 56);
+
+                &:hover{
+                    color: blue;
+                }
+            }
+        }
+
+
+    }
+
+    .exit{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+        margin-top: -60px;
+        margin-left: 470px;
+
+        .close-icon{
+            width: 20px;
+            height: 20px;
+        }
+
+        &:hover{
+            background-color: red;
+        }
+
+    }
+    
+}
+}
