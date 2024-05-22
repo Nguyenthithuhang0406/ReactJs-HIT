@@ -14,7 +14,7 @@ export const addTodo = (payload) => ({
 export const updateTodo = (index) => ({
     type: UPDATE_TODO,
     index
-})  
+})
 
 export const isEditTodo = (index) => ({
     type: ISEDITING,
