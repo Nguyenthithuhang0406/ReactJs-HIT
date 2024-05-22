@@ -1,6 +1,5 @@
-import { createStore } from 'redux';
+export { default as StoreProvider } from "./Provider";
 
-import reducer from "./reducer";
+export { default as StoreContext } from "./Context";
 
-export const store = createStore(reducer);
-
+export * as actions from "./actions";
