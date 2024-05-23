@@ -1,7 +1,7 @@
 /* eslint-disable */
 import React, { useReducer } from 'react'
 import Context from './Context'
-import reducer, { initState } from './Reducer';
+import reducer, { initState } from './reducer';
 
 const Provider = ({ children }) => {
     const [state, dispatch] = useReducer(reducer, initState);
