@@ -3,18 +3,21 @@
     justify-content: center;
     align-items: center;
     
-    .body{
+    .body-todoapp{
         width: 500px;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         min-height: 500px;
-        margin-top: 100px;
+        margin-top: 50px;
         padding: 50px;
 
         h1{
             text-align: center;
         }
 
-        input{
+
+        .input-todoapp{
+            display: flex;
+            input{
             margin-top: 50px;
             width: 350px;
             height: 50px;
@@ -24,15 +27,18 @@
             background-color: rgb(243, 241, 241);
         }
 
-        .button{
+        .button-todoapp{
             margin-left: 20px;
             height: 50px;
             width: 100px;
-            background-color: blue;
+            margin-top: 50px;
+            background-color: rgb(64, 64, 243);
             border: none;
             border-radius: 8px;
             color: white;
         }
+        }
+        
 
         li{
             width: 410px;
@@ -46,12 +52,14 @@
         }
 
         .bt-action{
-            .action{
+            .action-todoapp{
                 width: 50px;
                 height: 30px;
                 margin-left: 20px;
                 border-radius: 8px;
                 border: none;
+                background-color: rgb(211, 209, 209);
+                // color: aliceblue;
             }
         }
     }
