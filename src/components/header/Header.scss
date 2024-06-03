@@ -1,0 +1,14 @@
+.header-menu{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    padding: 20px 0;
+    background-color: rgb(215, 213, 230);
+
+    .header-menu-item{
+      .active{
+        color: red;
+      }
+    }
+}
