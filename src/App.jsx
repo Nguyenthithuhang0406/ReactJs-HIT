@@ -12,6 +12,8 @@ import { Link, NavLink, Route, Routes } from 'react-router-dom';
 import NotFound from './components/pages/NotFound';
 
 import "./App.scss";
+import Product from './components/pages/product/Product';
+import DetailProduct from './components/pages/detailProduct/DetailProduct';
 
 const App = () => {
   const [token, setToken] = useState(null);
@@ -48,6 +50,10 @@ const App = () => {
           <Route path='/contact' element={<Contact />} />
           <Route path='/aboutUs' element={<AboutUs />} />
           <Route path='*' element={<NotFound />} />
+          <Route path='/product' element={<Product />} >
+            <Route path=':id' element={<DetailProduct />} />
+          </Route>
+
         </Routes>
       </nav>
     </>
